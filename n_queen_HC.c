@@ -42,6 +42,7 @@ int main(int argc, char* argv[])
   if(argc != 3)
   {
     fprintf(stderr, "Wrong arguments counts\n");
+    fprintf(stderr, "please input likes the form:\n./hc queens_counts run_times\n");
     exit(-1);
   }
 
